@@ -20,7 +20,6 @@
 		CE4593CE246EA34B00AC2779 /* MoscapsuleClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4593CD246EA34B00AC2779 /* MoscapsuleClient.swift */; };
 		CE4593D0246EA37F00AC2779 /* MoscapsuleCertificateFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4593CF246EA37F00AC2779 /* MoscapsuleCertificateFiles.swift */; };
 		CE4593D3246EA86300AC2779 /* HostModelPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4593D2246EA86300AC2779 /* HostModelPersistence.swift */; };
-		CE4593D6246EA97300AC2779 /* HostSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4593D5246EA97300AC2779 /* HostSettings.swift */; };
 		CE4593D9246EAB8A00AC2779 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4593D8246EAB8A00AC2779 /* StringUtils.swift */; };
 		CE4593DB246EAC5E00AC2779 /* HostSettingExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4593DA246EAC5E00AC2779 /* HostSettingExamples.swift */; };
 		CE4593DD246EB01400AC2779 /* MessagesByTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4593DC246EB01400AC2779 /* MessagesByTopic.swift */; };
@@ -92,8 +91,9 @@
 		CEA861A8246E0B9200ADEF97 /* MQTTHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA861A7246E0B9200ADEF97 /* MQTTHelperTests.swift */; };
 		CEA861B3246E0B9200ADEF97 /* MQTTHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA861B2246E0B9200ADEF97 /* MQTTHelperUITests.swift */; };
 		CEA861C7246E11F700ADEF97 /* HostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA861C6246E11F700ADEF97 /* HostModel.swift */; };
-		CEA861CB246E124400ADEF97 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA861CA246E124400ADEF97 /* MessageModel.swift */; };
 		CEA861D0246E130100ADEF97 /* HostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA861CF246E130100ADEF97 /* HostsView.swift */; };
+		CED81967247013920098F433 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED81966247013920098F433 /* MessageModel.swift */; };
+		CED8196924702E680098F433 /* HostSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED8196824702E680098F433 /* HostSettings.swift */; };
 		FB282712928EA06B3722114B /* Pods_MQTTHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA466F83FD647DF976397B36 /* Pods_MQTTHelper.framework */; };
 /* End PBXBuildFile section */
 
@@ -132,7 +132,6 @@
 		CE4593CD246EA34B00AC2779 /* MoscapsuleClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoscapsuleClient.swift; sourceTree = "<group>"; };
 		CE4593CF246EA37F00AC2779 /* MoscapsuleCertificateFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoscapsuleCertificateFiles.swift; sourceTree = "<group>"; };
 		CE4593D2246EA86300AC2779 /* HostModelPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostModelPersistence.swift; sourceTree = "<group>"; };
-		CE4593D5246EA97300AC2779 /* HostSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostSettings.swift; sourceTree = "<group>"; };
 		CE4593D8246EAB8A00AC2779 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		CE4593DA246EAC5E00AC2779 /* HostSettingExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostSettingExamples.swift; sourceTree = "<group>"; };
 		CE4593DC246EB01400AC2779 /* MessagesByTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesByTopic.swift; sourceTree = "<group>"; };
@@ -209,9 +208,10 @@
 		CEA861AE246E0B9200ADEF97 /* MQTTHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQTTHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA861B2246E0B9200ADEF97 /* MQTTHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTHelperUITests.swift; sourceTree = "<group>"; };
 		CEA861B4246E0B9200ADEF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEA861C6246E11F700ADEF97 /* HostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HostModel.swift; path = "../../../../../mqtt-analyzer/src/MQTTAnalyzer/model/HostModel.swift"; sourceTree = "<group>"; };
-		CEA861CA246E124400ADEF97 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageModel.swift; path = "../../../../../mqtt-analyzer/src/MQTTAnalyzer/model/MessageModel.swift"; sourceTree = "<group>"; };
-		CEA861CF246E130100ADEF97 /* HostsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HostsView.swift; path = "../../../../mqtt-analyzer/src/MQTTAnalyzer/views/host/HostsView.swift"; sourceTree = "<group>"; };
+		CEA861C6246E11F700ADEF97 /* HostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostModel.swift; sourceTree = "<group>"; };
+		CEA861CF246E130100ADEF97 /* HostsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HostsView.swift; path = views/host/HostsView.swift; sourceTree = "<group>"; };
+		CED81966247013920098F433 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		CED8196824702E680098F433 /* HostSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostSettings.swift; sourceTree = "<group>"; };
 		EA466F83FD647DF976397B36 /* Pods_MQTTHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQTTHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -329,7 +329,6 @@
 			children = (
 				CE4593D4246EA92700AC2779 /* migration */,
 				CE4593D2246EA86300AC2779 /* HostModelPersistence.swift */,
-				CE4593D5246EA97300AC2779 /* HostSettings.swift */,
 				CE4593DA246EAC5E00AC2779 /* HostSettingExamples.swift */,
 			);
 			path = persistence;
@@ -579,15 +578,16 @@
 		CEA861C1246E112600ADEF97 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				CED8196824702E680098F433 /* HostSettings.swift */,
 				CE4593E8246EB82000AC2779 /* timeseries */,
 				CE4593D1246EA83300AC2779 /* persistence */,
-				CEA861CA246E124400ADEF97 /* MessageModel.swift */,
 				CEA861C6246E11F700ADEF97 /* HostModel.swift */,
-				CE4593B8246E979600AC2779 /* RootModel.swift */,
+				CED81966247013920098F433 /* MessageModel.swift */,
 				CE4593DC246EB01400AC2779 /* MessagesByTopic.swift */,
-				CE4593E4246EB3EB00AC2779 /* TopicModel.swift */,
-				CE4593E6246EB5C000AC2779 /* Readstate.swift */,
 				CE4593F1246EBBD700AC2779 /* Multimap.swift */,
+				CE4593E6246EB5C000AC2779 /* Readstate.swift */,
+				CE4593B8246E979600AC2779 /* RootModel.swift */,
+				CE4593E4246EB3EB00AC2779 /* TopicModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -810,6 +810,7 @@
 				CE45943F246EFEAA00AC2779 /* TopicView.swift in Sources */,
 				CE45941D246EF68A00AC2779 /* UsernamePasswordAuthenticationView.swift in Sources */,
 				CE459454246F01C500AC2779 /* TextWithAttributedString.swift in Sources */,
+				CED8196924702E680098F433 /* HostSettings.swift in Sources */,
 				CEA8618E246E0B9100ADEF97 /* AppDelegate.swift in Sources */,
 				CEA861C7246E11F700ADEF97 /* HostModel.swift in Sources */,
 				CE45943C246EFEAA00AC2779 /* MessageView.swift in Sources */,
@@ -846,10 +847,10 @@
 				CEA861D0246E130100ADEF97 /* HostsView.swift in Sources */,
 				CEA86195246E0B9100ADEF97 /* ContentView.swift in Sources */,
 				CE4593EA246EB85000AC2779 /* DiagramPath.swift in Sources */,
+				CED81967247013920098F433 /* MessageModel.swift in Sources */,
 				CE4593F2246EBBD700AC2779 /* Multimap.swift in Sources */,
 				CE459455246F01C500AC2779 /* AttributedUILabel.swift in Sources */,
 				CE459468246F115100AC2779 /* ReadMarkerView.swift in Sources */,
-				CE4593D6246EA97300AC2779 /* HostSettings.swift in Sources */,
 				CE45945C246F0EE700AC2779 /* ArrayUtils.swift in Sources */,
 				CE4593B5246E92CF00AC2779 /* EditHostFormDialog.swift in Sources */,
 				CE4593E7246EB5C000AC2779 /* Readstate.swift in Sources */,
@@ -878,7 +879,6 @@
 				CE459459246F0E3300AC2779 /* MQTTDelegate.swift in Sources */,
 				CE45941F246EF69D00AC2779 /* CertificateAuthenticationView.swift in Sources */,
 				CE45946A246F120000AC2779 /* QuickFilterView.swift in Sources */,
-				CEA861CB246E124400ADEF97 /* MessageModel.swift in Sources */,
 				CE459428246EFA3F00AC2779 /* InfoBox.swift in Sources */,
 				CE459406246EC9F800AC2779 /* CocoaMQTTClient.swift in Sources */,
 				CEA86190246E0B9100ADEF97 /* SceneDelegate.swift in Sources */,
